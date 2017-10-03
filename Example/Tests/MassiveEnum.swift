@@ -1,0 +1,113 @@
+//
+//  MassiveEnum.swift
+//  CasesTests
+//
+//  Created by hyukhur on 01/10/2017.
+//  Copyright © 2017 hyukhur. All rights reserved.
+//
+
+import Foundation
+@testable import EnumCases
+
+enum MassiveEnum: EnumCases {
+    case value1
+    case value2
+    case value3
+    case value4
+    case value5
+    case value6
+    case value7
+    case value8
+    case value9
+    case value10
+    case value11
+    case value12
+    case value13
+    case value14
+    case value15
+    case value16
+    case value17
+    case value18
+    case value19
+    case value20
+    case value21
+    case value22
+    case value23
+    case value24
+    case value25
+    case value26
+    case value27
+    case value28
+    case value29
+    case value30
+    case value31
+    case value32
+    case value33
+    case value34
+    case value35
+    case value36
+    case value37
+    case value38
+    case value39
+    case value40
+    case value41
+    case value42
+    case value43
+    case value44
+    case value45
+    case value46
+    case value47
+    case value48
+    case value49
+    case value50
+    case value51
+    case value52
+    case value53
+    case value54
+    case value55
+    case value56
+    case value57
+    case value58
+    case value59
+    case value60
+    case value61
+    case value62
+    case value63
+    case value64
+    case value65
+    case value66
+    case value67
+    case value68
+    case value69
+    case value70
+    case value71
+    case value72
+    case value73
+    case value74
+    case value75
+    case value76
+    case value77
+    case value78
+    case value79
+    case value80
+    case value81
+    case value82
+    case value83
+    case value84
+    case value85
+    case value86
+    case value87
+    case value88
+    case value89
+    case value90
+    case value91
+    case value92
+    case value93
+    case value94
+    case value95
+    case value96
+    case value97
+    case value98
+    case value99
+    case value100
+}
