@@ -9,7 +9,7 @@ class TableOfContentsSpec: QuickSpec {
         describe("these will fail") {
 
             it("can do maths") {
-                expect(StringEnum.none) == StringEnum.all[0]
+                expect(StringEnum.none) == StringEnum.all[1]
             }
 
             context("these will pass") {
