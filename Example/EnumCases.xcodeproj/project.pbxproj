@@ -10,7 +10,7 @@
 		4D1F01E41F83A9D600219F48 /* HHEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F01E11F83A9D600219F48 /* HHEnum.m */; };
 		4D1F01E51F83A9D600219F48 /* MassiveEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F01E21F83A9D600219F48 /* MassiveEnum.swift */; };
 		4D1F01ED1F83C7AE00219F48 /* MassiveEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F01EB1F83C77600219F48 /* MassiveEnumTests.swift */; };
-		4D1F01EF1F83C7D100219F48 /* EnumCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F01EE1F83C7D100219F48 /* EnumCasesTests.swift */; };
+		4D8A0D631F84899300F4AD01 /* EnumCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A0D621F84896700F4AD01 /* EnumCasesTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 		4D1F01E11F83A9D600219F48 /* HHEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHEnum.m; sourceTree = "<group>"; };
 		4D1F01E21F83A9D600219F48 /* MassiveEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveEnum.swift; sourceTree = "<group>"; };
 		4D1F01EB1F83C77600219F48 /* MassiveEnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveEnumTests.swift; sourceTree = "<group>"; };
-		4D1F01EE1F83C7D100219F48 /* EnumCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnumCasesTests.swift; path = ../../Tests/EnumCasesTests/EnumCasesTests.swift; sourceTree = "<group>"; };
+		4D8A0D621F84896700F4AD01 /* EnumCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCasesTests.swift; sourceTree = "<group>"; };
 		4EDC43B7E651A04418AFB305 /* Pods-EnumCases_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumCases_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumCases_Tests/Pods-EnumCases_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EnumCases_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumCases_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +90,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4D8A0D611F84896700F4AD01 /* EnumCasesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D8A0D621F84896700F4AD01 /* EnumCasesTests.swift */,
+			);
+			name = EnumCasesTests;
+			path = ../../Tests/EnumCasesTests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +145,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4D1F01EE1F83C7D100219F48 /* EnumCasesTests.swift */,
+				4D8A0D611F84896700F4AD01 /* EnumCasesTests */,
 				4D1F01E01F83A9D600219F48 /* HHEnum.h */,
 				4D1F01E11F83A9D600219F48 /* HHEnum.m */,
 				4D1F01E21F83A9D600219F48 /* MassiveEnum.swift */,
@@ -406,9 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1F01EF1F83C7D100219F48 /* EnumCasesTests.swift in Sources */,
 				4D1F01ED1F83C7AE00219F48 /* MassiveEnumTests.swift in Sources */,
 				4D1F01E41F83A9D600219F48 /* HHEnum.m in Sources */,
+				4D8A0D631F84899300F4AD01 /* EnumCasesTests.swift in Sources */,
 				4D1F01E51F83A9D600219F48 /* MassiveEnum.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
