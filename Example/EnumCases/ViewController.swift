@@ -7,18 +7,37 @@
 //
 
 import UIKit
+import EnumCases
 
-class ViewController: UIViewController {
+enum Sections: Int, EnumCases {
+    case first
+    case second
+    case third
+    var item: [String] {
+        switch self {
+        case .first:
+            return ["title", "title2", "title3"]
+        case .second:
+            return ["title11", "title12", "title13"]
+        case .third:
+            return ["title21", "title22", "title23"]
+        }
+    }
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UITableViewController {
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return Sections.all.count
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Sections.all[section].item.count
     }
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: nil)
+        cell.textLabel?.text = Sections.all[indexPath.section].item[indexPath.row]
+        return cell
+    }
 }
 
