@@ -28,3 +28,6 @@ Hyuk Hur
 ## License
 
 EnumCases is available under the MIT license. See the LICENSE file for more info.
+
+# Swift Language
+* there is [related proposal](https://github.com/apple/swift-evolution/blob/master/proposals/0194-derived-collection-of-enum-cases.md).
